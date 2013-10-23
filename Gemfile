@@ -8,6 +8,8 @@ gem 'pg'
 
 group :development, :test do
 	gem 'rspec-rails', '2.13.1'
+	gem 'spork-rails', '4.0.0'
+	gem 'childprocess'
 end
 
 group :test do
